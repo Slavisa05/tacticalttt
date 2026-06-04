@@ -19,18 +19,18 @@ export default async function HomeHero({ lang }: { lang: Locale }) {
             />
 
             {/* dark ovarlay */}
-            <div className="absolute w-full h-full z-10 bg-black/30"></div>
+            <div className="absolute w-full h-full z-1 bg-black/30"></div>
 
-            <div className="md:max-w-[70%] flex flex-col items-center justify-center gap-5">
+            <div className="relative z-10 md:max-w-[70%] flex flex-col items-center justify-center gap-5">
                 <h1 className="text-center">
                     {dict.hero.title}<br />
                     <span className="uppercase text-green-color font-semibold">{dict.hero.titleGreen}</span>
                 </h1>
-                <p className="text-justify">Obuka, trening vatrenim oružjem i taktička oprema na jednom mestu. Osigurajte svoju bezbednost i efikasnost - Pobedite u sukobu!Osigurajte svoju bezbednost i efikasnost - Pobedite u sukobu</p>
+                <p className="text-justify">{dict.hero.desc}</p>
             
                 <div className="flex items-center justify-between gap-3">
-                    <Button text="kontaktirajte nas" />
-                    <Button text="pogledajte više" variant="secondary" />
+                    <Button text={dict.hero.mainBtn} />
+                    <Button text={dict.hero.secBtn} variant="secondary" />
                 </div>
             </div>
         </section>

@@ -1,10 +1,19 @@
 {
   "nav": {
-    "courses": "Courses",
-    "contact": "Contact"
+    "home": "home",
+    "about": "about",
+    "gallery": "gallery",
+    "courses": "courses",
+    "shop": "shop",
+    "schedule": "schedule",
+    "regForm": "reg. form",
+    "contact": "contact"
   },
   "hero": {
     "title": "Prepare yourself for any situation with the",
-    "titleGreen": "Tactical Training Team"
+    "titleGreen": "Tactical Training Team",
+    "desc": "Training, firearms training, and tactical gear all in one place. Ensure your safety and efficiency - Win in conflict!",
+    "mainBtn": "contact us",
+    "secBtn": "see more"
   }
 }
