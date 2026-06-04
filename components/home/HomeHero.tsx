@@ -1,7 +1,11 @@
+import { getDictionary } from '@/dictionaries'
+import type { Locale } from '@/i18n.config'
 import Image from "next/image";
 import Button from "../ui/Button";
 
-export default function HomeHero() {
+export default async function HomeHero({ lang }: { lang: Locale }) {
+    const dict = await getDictionary(lang);
+
     return(
         <section className="relative w-full px-[5vw] pt-55 min-h-screen overflow-hidden flex items-center justify-center">
             {/* BG slika */}
@@ -19,8 +23,8 @@ export default function HomeHero() {
 
             <div className="md:max-w-[70%] flex flex-col items-center justify-center gap-5">
                 <h1 className="text-center">
-                    Pripremite se za svaku situaciju sa<br />
-                    <span className="uppercase text-green-color font-semibold">Timom za Taktički Trening</span>
+                    {dict.hero.title}<br />
+                    <span className="uppercase text-green-color font-semibold">{dict.hero.titleGreen}</span>
                 </h1>
                 <p className="text-justify">Obuka, trening vatrenim oružjem i taktička oprema na jednom mestu. Osigurajte svoju bezbednost i efikasnost - Pobedite u sukobu!Osigurajte svoju bezbednost i efikasnost - Pobedite u sukobu</p>
             

@@ -6,7 +6,7 @@ import localFont from "next/font/local"
 import "./globals.css";
 
 const algerianFont = localFont({
-  src: '../public/fonts/Algerian.ttf', 
+  src: '../../public/fonts/Algerian.ttf', 
   variable: '--font-algerian',
   display: 'swap',
 })
