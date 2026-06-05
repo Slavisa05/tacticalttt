@@ -7,7 +7,7 @@ export default async function HomeHero({ lang }: { lang: Locale }) {
     const dict = await getDictionary(lang);
 
     return(
-        <section className="relative w-full px-[5vw] pt-55 min-h-screen overflow-hidden flex items-center justify-center">
+        <section className="relative w-full px-[5vw] pt-80 md:pt-55 min-h-screen overflow-hidden flex items-center justify-center">
             {/* BG slika */}
             <Image 
                 src="/hero-slika.jpg"
@@ -19,12 +19,12 @@ export default async function HomeHero({ lang }: { lang: Locale }) {
             />
 
             {/* dark ovarlay */}
-            <div className="absolute w-full h-full z-1 bg-black/30"></div>
+            <div className="absolute -mt-55 w-full h-full z-1 bg-black/30"></div>
 
-            <div className="relative z-10 md:max-w-[70%] flex flex-col items-center justify-center gap-5">
-                <h1 className="text-center">
-                    {dict.hero.title}<br />
-                    <span className="uppercase text-green-color font-semibold">{dict.hero.titleGreen}</span>
+            <div className="relative z-10 w-full md:max-w-[70%] flex flex-col items-center justify-center gap-5">
+                <h1 className="text-center w-full">
+                    {dict.hero.title} 
+                    <span className="w-full uppercase text-green-color font-semibold"> {dict.hero.titleGreen}</span>
                 </h1>
                 <p className="text-justify">{dict.hero.desc}</p>
             

@@ -1,5 +1,6 @@
 {
   "nav": {
+    "lang": "jezik",
     "home": "početna",
     "about": "o nama",
     "gallery": "galerija",
@@ -15,5 +16,31 @@
     "desc": "Obuka, trening vatrenim oružjem i taktička oprema na jednom mestu. Osigurajte svoju bezbednost i efikasnost - Pobedite u sukobu!",
     "mainBtn": "kontaktirajte nas",
     "secBtn": "pogledajte više"
+  },
+  "homeCourses": {
+    "subheading": "taktički kursevi",
+    "heading": "Profesionalna obuka i trening u taktičkom i tehničkom rukovanju vatrenim oružjem, na svim nivoima",
+    "basicHeading": "osnovni kursevi",
+    "basicDesc": "Pružaju bazična znanja i veštine u bezbednoj i efikasanoj upotrebi vatrenog oružja, predstavljaju bazičnu osnovu u procesu sticanja naprednih znanja i veština",
+    "advancedHeading": "napredni taktički kursevi",
+    "advancedDesc": "Pružaju napredna znanja i veštine u taktičkoj upotrebi vatrenog oružja, predstavljaju osnovu za učešće na specijalističkim taktičkim kursevima",
+    "specialHeading": "specijalistički kursevi",
+    "specialDesc": "Pružaju i obezbeđuju specijalistička znanja i taktičke veštine",
+    "medicalHeading": "medicinski kursevi",
+    "medicalDesc": "Pružaju i obezbeđuju znanja i veštine iz oblasti opšte i taktičke medicine uz upotrebu savremenih medicinskih sredstava",
+    "individualHeading": "individualni trening",
+    "individualDesc": "Pištolj/Revolver, Puška/PCC, Taktička Puška Sačmarica...",
+    "technicalHeading": "tehnički kursevi",
+    "technicalDesc": "Pružaju znanja i tehničke veštine u procesu održavanja, servisiranja i tehničkog opsluživanja oružja i oruđa",
+    "militaryHeading": "vojni kursevi",
+    "militaryDesc": "Vojni kursevi spadaju u grupu restriktivnih kurseva, namenjenih prvenstveno državnim institucijama, obuhvataju vojno oružje i oruđe"
+  },
+  "homeAnnouncement": {
+    "subheading": "važno",
+    "p1": "Ovaj materijal je zaštićen autorskim pravima ne može biti objavljivan i korišćen bez izričite dozvole Tima za Taktički Trening. Informacije predstavljene ovde su samo u opšte obrazovne i informativne svrhe. Sveobuhvatna obuka i trening, procedure i mere bezbednosti su apsolutno neophodne za bezbedan rad i obavljanje aktivnosti. Nepoštovanje bezbednosnih postupaka, mera i radnji, kao i definisanih protokola i procedura može dovesti do teških povreda, smrtnih posledica i/ili oštećenja materijalnih dobara.",
+    "p2": "Informacije sadržane na ovom sajtu mogu da se koriste na sopstvenu odgovornost i prema sopstvenoj proceni, bez bilo kog uticaja i odgovornosti Tima za Taktički Trening. Svaku aktivnost bez nadzora stručnog i kvalifikovanog instruktora i/ili ovlašćenog službenika Tima za Taktički Trening, preuzimate uz punu odgovornost za svoje postupke.",
+    "subheading2": "napomena",
+    "p3": "Grupa kurseva “RESTRIKTIVNO” je namenjena isključivo državnim institucijama vojska, policija, službe bezbednosti, privatnim vojnim kompanijama i subjektima koji poseduju državnu licencu za obuku, trening i/ili upotrebu restriktivnog oružja, municije i opreme (automatsko oružje, teški mitraljezi, bacači granata, eksploziv…).",
+    "boldText": "Ako imate zahtev za ovu vrstu kurseva, kontaktirajte nas!"
   }
 }

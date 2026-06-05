@@ -1,5 +1,6 @@
 {
   "nav": {
+    "lang": "language",
     "home": "home",
     "about": "about",
     "gallery": "gallery",
@@ -15,5 +16,31 @@
     "desc": "Training, firearms training, and tactical gear all in one place. Ensure your safety and efficiency - Win in conflict!",
     "mainBtn": "contact us",
     "secBtn": "see more"
+  },
+  "homeCourses": {
+    "subheading": "tactical courses",
+    "heading": "Professional training and instruction in tactical and technical firearms handling, at all levels",
+    "basicHeading": "basic courses",
+    "basicDesc": "They provide fundamental knowledge and skills in the safe and efficient use of firearms, serving as the basic foundation in the process of acquiring advanced knowledge and skills",
+    "advancedHeading": "advanced courses",
+    "advancedDesc": "They provide advanced knowledge and skills in the tactical use of firearms, forming the foundation for participation in specialized tactical courses",
+    "specialHeading": "special courses",
+    "specialDesc": "They provide and ensure specialized knowledge and tactical skills",
+    "medicalHeading": "medical courses",
+    "medicalDesc": "They provide and ensure knowledge and skills in general and tactical medicine using modern medical equipment",
+    "individualHeading": "individual training",
+    "individualDesc": "Pistol/Revolver, Rifle/PCC, Tactical Shotgun...",
+    "technicalHeading": "tehnical courses",
+    "technicalDesc": "They provide knowledge and technical skills in the process of maintaining, servicing, and technical support of firearms and equipment",
+    "militaryHeading": "military courses",
+    "militaryDesc": "Military courses fall into the category of restricted courses, primarily intended for government institutions, covering military weapons and equipment"
+  },
+  "homeAnnouncement": {
+    "subheading": "important",
+    "p1": "This material is protected by copyright and may not be published or used without the express permission of the Tactical Training Team. The information presented here is for general educational and informational purposes only. Comprehensive training, procedures, and safety measures are absolutely necessary for safe operation and activities. Failure to follow safety procedures, measures, actions, and defined protocols and procedures may result in serious injury, death, and/or damage to property.",
+    "p2": "The information contained on this site is used at your own risk and discretion, with no influence or responsibility from the Tactical Training Team. Any activities without the supervision of a qualified instructor and/or authorized personnel from the Tactical Training Team are undertaken at your own full responsibility.",
+    "subheading2": "note",
+    "p3": "The “RESTRICTED” course group is intended solely for government institutions, military, police, security services, private military companies, and entities holding a government license for training, instruction, and/or use of restricted weapons, ammunition, and equipment (automatic weapons, heavy machine guns, grenade launchers, explosives, etc.).",
+    "boldText": "If you have a request for this type of course, contact us"
   }
 }

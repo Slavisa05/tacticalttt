@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Cairo, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local"
-// import Navbar from "@/components/layout/Navbar";
-// import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 const algerianFont = localFont({
@@ -67,20 +67,22 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
+export default async function RootLayout({
+  params, children
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ lang: string }>;
 }>) {
+  const { lang } = await params;
   return (
     <html
       lang="en"
       className={`${algerianFont.variable} ${cairo.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
-        {/* <Footer />   */}
+        <Footer />  
       </body>
     </html>
   );
