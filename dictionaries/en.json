@@ -65,5 +65,9 @@
     "phonePlaceholder": "+38164...",
     "messageLabel": "Message",
     "messagePlaceholder": "Hello, I have a question..."
+  },
+  "coursesPage": {
+    "heading": "Professional Services at the Highest Level",
+    "p": "Acquire and elevate your knowledge and skills, be a winner"
   }
 }

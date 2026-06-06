@@ -65,5 +65,9 @@
     "phonePlaceholder": "+38164...",
     "messageLabel": "Poruka",
     "messagePlaceholder": "Zdravo, imam pitanje u vezi..."
+  },
+  "coursesPage": {
+    "heading": "Profesionalne Usluge na Najvišem Nivou",
+    "p": "Stekni i podigni svoja znanja i veštine, budi pobednik"
   }
 }
