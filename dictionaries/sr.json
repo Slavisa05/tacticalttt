@@ -42,5 +42,28 @@
     "subheading2": "napomena",
     "p3": "Grupa kurseva “RESTRIKTIVNO” je namenjena isključivo državnim institucijama vojska, policija, službe bezbednosti, privatnim vojnim kompanijama i subjektima koji poseduju državnu licencu za obuku, trening i/ili upotrebu restriktivnog oružja, municije i opreme (automatsko oružje, teški mitraljezi, bacači granata, eksploziv…).",
     "boldText": "Ako imate zahtev za ovu vrstu kurseva, kontaktirajte nas!"
+  },
+  "aboutPage": {
+    "p1": "Privredno društvo <b>„Društvo za Bezbednosni Konsalting – Tim za Taktički Trening“ d.o.o.</b> je privatno pravno lice registrovano u Republici Srbiji 2005 godine,  čija se delatnost odvija u nekoliko oblasti koje čine jedinstvenu celinu:",
+    "l1": "Obuka i trening vojnog, policijskog, bezbednosnog i  civilnog osoblja",
+    "l2": "VIP i usluge obezbeđenja i zaštite u uslovima visokog rizika",
+    "l3": "Proizvodnja vojnog naoružanja i opreme",
+    "l4": "Međunarodna trgovina oružjem, municijom, vojnom opremom i robom dvostruke namene",
+    "p2": "Naše privredno društvo je registrovano i obavlja delatnost u skladu sa zakonskim propisima Republike Srbije kao i međunarodnim propisima koji definišu i regulišu poslovne aktivnosti kojima se mi bavimo.",
+    "p3": "Značajan deo našeg osoblja je aktivno uključen u različite vojne i bezbednosne misije širom sveta, što nam obezbeđuje visok standard naših usluga, omogućavajući nam da po zahtevu klijenta, trenutno aktiviramo naše resurse i pokrenemo misiju bilo gde u svetu.",
+    "p4": "U cilju sticanja i jačanja poslovnog poverenja kod poznatih i potencijalnih kupaca, unapređenja poslovnih veština i produktivnosti, postizanja i održavanja stabilnog nivoa kvaliteta usluga, Tim za Taktički Trening, konstantno radi na praćenju, prilagođavanju i pronalaženju novih oblika komunikacije i saradnje sa svojim partnerima i korisnicima usluga.",
+    "p5": "Naši klijenti su države, vladine institucije, kompanije i pojedinci, koji imaju potrebu za različitim savetodavnim i praktičnim vojnim, policijskim i bezbednosnim uslugama!",
+    "partnersSubheading": "naši partneri"
+  },
+  "contactPage": {
+    "subheading": "kontaktirajte nas",
+    "heading": "Imate neko pitanje?",
+    "p": "Pošaljite nam poruku i odgovorićemo vam u najkraćem mogućem roku.",
+    "nameLabel": "Ime i prezime",
+    "namePlaceholder": "Marko Markovic",
+    "phoneLabel": "Broj telefona",
+    "phonePlaceholder": "+38164...",
+    "messageLabel": "Poruka",
+    "messagePlaceholder": "Zdravo, imam pitanje u vezi..."
   }
 }

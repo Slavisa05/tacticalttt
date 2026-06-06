@@ -42,5 +42,28 @@
     "subheading2": "note",
     "p3": "The “RESTRICTED” course group is intended solely for government institutions, military, police, security services, private military companies, and entities holding a government license for training, instruction, and/or use of restricted weapons, ammunition, and equipment (automatic weapons, heavy machine guns, grenade launchers, explosives, etc.).",
     "boldText": "If you have a request for this type of course, contact us"
+  },
+  "aboutPage": {
+    "p1": "The company <b>\"Security Consulting Society – Tactical Training Team\" Ltd.</b> is a private legal entity registered in the Republic of Serbia in 2005, operating in several areas that constitute a unified entity:",
+    "l1": "Training and instruction for military, police, security, and civilian personnel",
+    "l2": "VIP services and security and protection in high-risk conditions",
+    "l3": "Production of military weapons and equipment",
+    "l4": "International trade in weapons, ammunition, military equipment, and dual-use goods",
+    "p2": "Our company is registered and operates in accordance with the legal regulations of the Republic of Serbia as well as international regulations that define and govern the business activities we engage in.",
+    "p3": "A significant portion of our staff is actively involved in various military and security missions around the world, which ensures a high standard of our services, allowing us to deploy our resources and initiate missions anywhere in the world at the client's request.",
+    "p4": "For the purpose of building and strengthening business trust with existing and potential clients, improving business skills and productivity, and achieving and maintaining a stable level of service quality, the Tactical Training Team continuously works on monitoring, adapting, and finding new forms of communication and cooperation with its partners and clients.",
+    "p5": "Our clients include governments, government institutions, companies, and individuals who require various advisory and practical military, police, and security services!",
+    "partnersSubheading": "our partners"
+  },
+  "contactPage": {
+    "subheading": "contact us",
+    "heading": "Have any question?",
+    "p": "Send us a message and we will respond as soon as possible.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "John Smith",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+38164...",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Hello, I have a question..."
   }
 }

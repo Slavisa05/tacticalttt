@@ -38,7 +38,7 @@ export default function Navbar() {
         const right = [
             { href: `/${lang}/prodavnica`, label: navDict.shop },
             { href: `/docs/raspored.pdf`, label: navDict.schedule },
-            { href: `/docs/prijava.pdf`, label: navDict.regForm },
+            { href: lang === "en" ? `/docs/prijava-eng.pdf` : `/docs/prijava.pdf`, label: navDict.regForm },
             { href: `/${lang}/kontakt`, label: navDict.contact },
         ];
 
@@ -52,8 +52,13 @@ export default function Navbar() {
             return false;
         }
 
+        // Home route for current locale should only be active on exact match.
+        if (href === `/${lang}`) {
+            return pathname === href;
+        }
+
         if (href === "/") {
-            return pathname === "/";
+            return pathname === href;
         }
 
         return pathname === href || pathname.startsWith(`${href}/`);
