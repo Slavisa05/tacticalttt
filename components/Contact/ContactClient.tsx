@@ -1,6 +1,6 @@
 import { getDictionary } from '@/dictionaries'
 import type { Locale } from '@/i18n.config'
-import ContactForm from './ContactForm'
+import ContactForm from './ContactForm';
 import Subheading from "../ui/Subheading"
 
 export default async function ContactClient({ lang }: { lang: Locale }) {
