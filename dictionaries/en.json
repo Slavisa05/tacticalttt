@@ -1,4 +1,16 @@
 {
+  "meta": {
+    "heroTitle": "Prepare for Every Situation with the Tactical Training Team",
+    "heroDesc": "Firearms training and tactical equipment in one place. Ensure your safety and effectiveness - win in conflict!",
+    "aboutTitle": "Meet the Tactical Training Team",
+    "aboutDesc": "Training for military, police, security and civilian personnel. VIP and protection services in high-risk conditions. Military weapons and equipment manufacturing. International trade in weapons, ammunition, military equipment and dual-use goods.",
+    "galleryTitle": "Gallery | Tactical Training Team",
+    "galleryDesc": "View photos from various training sessions.",
+    "coursesTitle": "Professional Services at the Highest Level | Tactical Training Team",
+    "coursesDesc": "Acquire and elevate your knowledge and skills, be a winner!",
+    "contactTitle": "Contact Us | Tactical Training Team",
+    "contactDesc": "Contact us via the contact form or by call/message."
+  },
   "nav": {
     "lang": "language",
     "home": "home",
@@ -150,6 +162,8 @@
     "military18": "ZU-2/ZSU-4 23mm",
     "military19": "GSh 301 30mm",
     "military20": "Bofors 40mm",
+    "restrictive": "Group of Restrictive Courses",
+    "restrictiveDesc": "These courses are primarily intended for government institutions and licensed entities. For access and additional information, please contact us directly.",
     "individualHeading":"Individual training (Pistol/Revolver; Rifle/PCC; Tactical Shotgun...)",
     "individual1": "These sessions involve direct one-on-one work with an instructor",
     "individual2": "Duration: 2 hours (120 minutes)",

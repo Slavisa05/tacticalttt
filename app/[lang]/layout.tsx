@@ -22,22 +22,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Taktičko strelište u Srbiji | Gvozdeni zmaj",
-  description: "Taktičko strelište u Srbiji Gvozdeni zmaj nudi profesionalne treninge rukovanja oružjem, moderne staze, širok izbor oružja i stručne instruktore. Rezervišite svoj termin još danas!",
-
   openGraph: {
-    title: "Taktičko strelište u Srbiji | Gvozdeni zmaj",
-    description: "Taktičko strelište u Srbiji Gvozdeni zmaj nudi profesionalne treninge rukovanja oružjem, moderne staze, širok izbor oružja i stručne instruktore.",
+    title: "Pripremite se za svaku situaciju sa Timom za Taktički Trening",
+    description: "Obuka, trening vatrenim oružjem i taktička oprema na jednom mestu. Osigurajte svoju bezbednost i efikasnost - pobedite u sukobu!",
     url: "https://tacticalttt.com",
     siteName: "tacticalttt.com",
     locale: "sr_RS",
     type: "website",
     images: [
       {
-        url: "https://tacticalttt.com/srb.jpg",
+        url: "https://tacticalttt.com/logo.png",
         width: 1200,
         height: 630,
-        alt: "Taktičko strelište u Srbiji | Gvozdeni zmaj",
+        alt: "Taktička obuka u Srbiji | Tim za Taktički Trening",
       },
     ],
   },
@@ -45,7 +42,7 @@ export const metadata: Metadata = {
   // Twitter/X kartice
   twitter: {
     card: "summary_large_image",
-    title: "Taktičko strelište u Srbiji | Gvozdeni zmaj",
+    title: "Taktička obuka u Srbiji | Tim za Taktički Trening",
     description: "Rezervišite svoj termin još danas!",
     images: ["https://tacticalttt.com/srb.jpg"],
   },

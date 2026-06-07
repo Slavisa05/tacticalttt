@@ -1,4 +1,16 @@
 {
+  "meta": {
+    "heroTitle": "Pripremite se za svaku situaciju sa Timom za Taktički Trening",
+    "heroDesc": "Obuka, trening vatrenim oružjem i taktička oprema na jednom mestu. Osigurajte svoju bezbednost i efikasnost - pobedite u sukobu!",
+    "aboutTitle": "Upoznajte Tim za Taktički Trening",
+    "aboutDesc": "Obuka i trening vojnog, policijskog, bezbednosnog i  civilnog osoblja VIP i usluge obezbeđenja i zaštite u uslovima visokog rizika Proizvodnja vojnog naoružanja i opreme Međunarodna trgovina oružjem, municijom, vojnom opremom i robom dvostruke namene",
+    "galleryTitle": "Galerija | Tim za Taktički Trening",
+    "galleryDesc": "Pogledajte slike sa različitih treninga.",
+    "coursesTitle": "Profesionalne Usluge na Najvišem Nivou | Tim za Taktički Trening",
+    "coursesDesc": "Stekni i podigni svoja znanja i veštine, budi pobednik!",
+    "contactTitle": "Kontaktirajte nas | Tim za Taktički Trening",
+    "contactDesc": "Kontaktirajte nas putem kontakt forme ili pozivom/porukom na broj."
+  },
   "nav": {
     "lang": "jezik",
     "home": "početna",
@@ -150,6 +162,8 @@
     "military18": "ZU-2/ZSU-4 23mm",
     "military19": "GSh 301 30mm",
     "military20": "Bofors 40mm",
+    "restrictive": "Grupa Restriktivnih Kurseva",
+    "restrictiveDesc": "Ovi kursevi su namenjeni prvenstveno državnim institucijama i licenciranim subjektima. Za pristup i dodatne informacije, kontaktirajte nas direktno.",
     "individualHeading":"Individualni treninzi (Pištolj/Revolver; Puška/PCC: Taktička Puška Sačmarica...)",
     "individual1": "Uključuje neposredni rad sa instruktorom 1/1",
     "individual2": "Trajanje: 2 sata (120 minuta)",

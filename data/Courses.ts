@@ -3,6 +3,7 @@ import type { Locale } from "@/i18n.config";
 export interface Course {
     key?: string;
     type: "basic" | "advanced" | "special" | "medical";
+    label: string,
     heading: string,
     image: string,
     alt: string,
@@ -12,7 +13,8 @@ export interface Course {
 export const Courses: Course[] = [
     {
         type: "basic",
-        heading: "PIŠTOLJ/REVOLVER – OSNOVNI KURS(Jedan dan)",
+        label: "pištolj",
+        heading: "PIŠTOLJ/REVOLVER – OSNOVNI KURS (Jedan dan)",
         image: "/basic-pistol.jpg",
         alt: "devojka sa roze antifonima puca",
         desc: `**Sistem rada:** Tim za Taktički Trening
@@ -80,6 +82,7 @@ export const Courses: Course[] = [
     },
     {
         type: "basic",
+        label: "puška",
         heading: "PUŠKA – OSNOVNI KURS (Jedan dan)",
         image: "/basic-rifle.jpg",
         alt: "muškarac nišani sa AK47",
@@ -149,6 +152,7 @@ export const Courses: Course[] = [
     },
     {
         type: "basic",
+        label: "sačmarica",
         heading: "TAKTIČKA PUŠKA SAČMARICA – OSNOVNI KURS (Jedan dan)",
         image: "/basic-shotgun.jpg",
         alt: "muškarac puca iz sačmarice",
@@ -218,6 +222,7 @@ export const Courses: Course[] = [
     },
     {
         type: "basic",
+        label: "idpa",
         heading: "IDPA Osnovni + Klasifikacioni Kurs (Jedan dan)",
         image: "/basic-idpa.jpg",
         alt: "muškarac puca iz pištolja dok je instruktor iza njega",
@@ -286,6 +291,7 @@ export const Courses: Course[] = [
     },
     {
         type: "basic",
+        label: "snajper",
         heading: "OSNOVNI SNAJPERSKI KURS (Tri dana)",
         image: "/basic-sniper.jpg",
         alt: "muškarac ležeći nišani snajperom",
@@ -368,6 +374,7 @@ export const Courses: Course[] = [
     },
     {
         type: "advanced",
+        label: "pištolj",
         heading: "PIŠTOLJ/REVOLVER – NAPREDNI TAKTIČKI KURS (Jedan dan)",
         image: "/advanced-pistol.jpg",
         alt: "muškarac repertira pištolj iza bureta",
@@ -438,6 +445,7 @@ export const Courses: Course[] = [
     },
     {
         type: "advanced",
+        label: "puška",
         heading: "PUŠKA – NAPREDNI TAKTIČKI KURS (Jedan dan)",
         image: "/advanced-rifle.jpg",
         alt: "muškarac stoji sa puškom i gas maskom",
@@ -509,6 +517,7 @@ export const Courses: Course[] = [
     },
     {
         type: "advanced",
+        label: "sačmarica",
         heading: "TAKTIČKA PUŠKA SAČMARICA – NAPREDNI TAKTIČKI KURS (Jedan dan)",
         image: "/advanced-shotgun.jpg",
         alt: "muškarac sedeći iz auta nišani sačmaricom",
@@ -577,7 +586,8 @@ export const Courses: Course[] = [
     },
     {
         type: "special",
-        heading: "TAKTIČKA PUŠKA SAČMARICA – NAPREDNI TAKTIČKI KURS (Jedan dan)",
+        label: "taktički operativac",
+        heading: "TAKTIČKI OPERATIVAC (6 – 8 dana/noć)",
         image: "/special-course.jpg",
         alt: "3 muškaraca iza auta sa puškama",
         desc: `**Sistem rada:** Tim za Taktički Trening 
@@ -667,6 +677,7 @@ export const Courses: Course[] = [
     },
     {
         type: "medical",
+        label: "BLS + AED",
         heading: "Kurs Osnovne Životne Potpore + Spoljašnja Defibrilacija (4-5 sati)",
         image: "/medical-course.jpg",
         alt: "demonstracija izvođenja cpr-a",
@@ -710,6 +721,7 @@ angažovanje sertifikovanog instruktorskog tima, medicinska i nemedicinska sreds
 const CoursesEng: Course[] = [
     {
         type: "basic",
+        label: "pistol",
         heading: "PISTOL/REVOLVER – BASIC COURSE (One day)",
         image: "/basic-pistol.jpg",
         alt: "girl with pink headphones shooting",
@@ -778,6 +790,7 @@ const CoursesEng: Course[] = [
     },
     {
         type: "basic",
+        label: "rifle",
         heading: "RIFLE – BASIC COURSE (One day)",
         image: "/basic-rifle.jpg",
         alt: "man aiming with AK47",
@@ -847,6 +860,7 @@ const CoursesEng: Course[] = [
     },
     {
         type: "basic",
+        label: "shotgun",
         heading: "TACTICAL SHOTGUN – BASIC COURSE (One day)",
         image: "/basic-shotgun.jpg",
         alt: "man shooting from shotgun",
@@ -916,6 +930,7 @@ const CoursesEng: Course[] = [
     },
     {
         type: "basic",
+        label: "idpa",
         heading: "IDPA Basic + Classification Course (One day)",
         image: "/basic-idpa.jpg",
         alt: "man shooting from pistol while instructor is behind him",
@@ -984,6 +999,7 @@ const CoursesEng: Course[] = [
     },
     {
         type: "basic",
+        label: "sniper",
         heading: "BASIC SNIPER COURSE (Three days)",
         image: "/basic-sniper.jpg",
         alt: "man lying aiming with sniper rifle",
@@ -1067,6 +1083,7 @@ const CoursesEng: Course[] = [
     },
     {
         type: "advanced",
+        label: "pistol",
         heading: "PISTOL/REVOLVER – ADVANCED TACTICAL COURSE (One day)",
         image: "/advanced-pistol.jpg",
         alt: "man repeating pistol behind barricade",
@@ -1137,6 +1154,7 @@ const CoursesEng: Course[] = [
     },
     {
         type: "advanced",
+        label: "rifle",
         heading: "RIFLE – ADVANCED TACTICAL COURSE (One day)",
         image: "/advanced-rifle.jpg",
         alt: "man standing with rifle and gas mask",
@@ -1208,6 +1226,7 @@ const CoursesEng: Course[] = [
     },
     {
         type: "advanced",
+        label: "shotgun",
         heading: "TACTICAL SHOTGUN – ADVANCED TACTICAL COURSE (One day)",
         image: "/advanced-shotgun.jpg",
         alt: "man sitting from car aiming shotgun",
@@ -1276,7 +1295,8 @@ const CoursesEng: Course[] = [
     },
     {
         type: "special",
-        heading: "TACTICAL SHOTGUN – ADVANCED TACTICAL COURSE (One day)",
+        label: "tactical operator",
+        heading: "TACTICAL OPERATOR (6 – 8 Day/Nights)",
         image: "/special-course.jpg",
         alt: "3 men behind car with rifles",
         desc: `**Working System:** Tactical Training Team
@@ -1366,6 +1386,7 @@ const CoursesEng: Course[] = [
     },
     {
         type: "medical",
+        label: "BLS + AED",
         heading: "Basic Life Support Course + External Defibrillation (4-5 hours)",
         image: "/medical-course.jpg",
         alt: "demonstration of CPR execution",
