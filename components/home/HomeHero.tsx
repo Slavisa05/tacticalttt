@@ -7,7 +7,7 @@ export default async function HomeHero({ lang }: { lang: Locale }) {
     const dict = await getDictionary(lang);
 
     return(
-        <section className="relative w-full px-[5vw] pt-80 pb-10 md:pt-55 min-h-screen overflow-hidden flex items-center justify-center">
+        <section className="relative w-full px-[5vw] pt-80 pb-8 md:pt-55 min-h-screen overflow-hidden flex items-center justify-center">
             {/* BG slika */}
             <Image 
                 src="/hero-slika.jpg"
