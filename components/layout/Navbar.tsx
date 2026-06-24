@@ -147,7 +147,7 @@ export default function Navbar() {
 
             {/* Mobilni meni */}
             <div className={`md:hidden overflow-hidden transition-all duration-300 ${menuOpen ? "max-h-96 pt-4" : "max-h-0"}`}>
-                <div className="flex flex-col gap-4 backdrop-blur-3xl py-5">
+                <div className="flex flex-col gap-4 py-5">
                     {mobile.map((link) => (
                         <Link
                             key={link.href}
